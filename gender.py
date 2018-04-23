@@ -42,7 +42,7 @@ pred_knc = clf_knc.predict(X)
 acc_knc = accuracy_score(Y, pred_knc) * 100
 print("Accuracy for KNN: {}".format(acc_knc))
 
-#The best classifier from svm, per, KNN
+#The best classifier from Support Vector Machines(SVM), Perceptron and KNeighborsClassifier
 index = np.argmax([acc_svm, acc_per, acc_knc])
 classifiers = {0: "SVM", 1: "Perceptron", 2: "KNN"}
 print("Best gender classifier is {}".format(classifiers[index]))
