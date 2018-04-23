@@ -14,7 +14,6 @@ Y = ['male', 'male', 'female', 'female', 'male', 'male', 'female', 'female',
      'female', 'male', 'male']
 
 #Classifiers
-#using the default values for all the hyperparameters
 clf_tree = tree.DecisionTreeClassifier()
 clf_svm = SVC()
 clf_perceptron = Perceptron()
